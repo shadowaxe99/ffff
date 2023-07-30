@@ -1,0 +1,22 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classifier-Free Guidance</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="classifier-free-guidance">
+        <h1>Classifier-Free Guidance</h1>
+        <p>With the Classifier-Free Guidance feature, you can adjust the level of input influence on the output. This is done using the `classifier_free_guidance` parameter.</p>
+        <label for="guidance-level">Guidance Level:</label>
+        <input type="range" id="guidance-level" name="guidance-level" min="0" max="1" step="0.1">
+        <p id="guidance-level-display">0.5</p>
+        <button onclick="updatePreferences()">Update Preferences</button>
+    </div>
+    <script src="../scripts.js"></script>
+</body>
+</html>
+```

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Influence</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="audio-influence">
+        <h2>Audio Influence</h2>
+        <p>Provide an audio file as input to influence the generated music. You can opt for two modes: "Continuation" where the AI continues the melody of the input audio, or "Mimic" where the AI generates music imitating the melody of the input audio.</p>
+        <form>
+            <label for="audio-file">Upload Audio File:</label>
+            <input type="file" id="audio-file" name="audio-file" accept=".wav,.mp3">
+            <br>
+            <label for="mode">Choose Mode:</label>
+            <select id="mode" name="mode">
+                <option value="continuation">Continuation</option>
+                <option value="mimic">Mimic</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="../scripts.js"></script>
+</body>
+</html>

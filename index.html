@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Welcome to the Flask App!</h1>
+
+    <form id="createUserForm">
+        <h2>Create User</h2>
+        <input type="text" id="createName" placeholder="Name">
+        <input type="text" id="createEmail" placeholder="Email">
+        <button type="submit">Create</button>
+    </form>
+
+    <form id="updateUserForm">
+        <h2>Update User</h2>
+        <input type="text" id="updateId" placeholder="User ID">
+        <input type="text" id="updateName" placeholder="Name">
+        <input type="text" id="updateEmail" placeholder="Email">
+        <button type="submit">Update</button>
+    </form>
+
+    <form id="deleteUserForm">
+        <h2>Delete User</h2>
+        <input type="text" id="deleteId" placeholder="User ID">
+        <button type="submit">Delete</button>
+    </form>
+
+    <div id="usersList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
